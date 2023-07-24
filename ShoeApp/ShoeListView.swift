@@ -42,7 +42,7 @@ class ShoeViewModel: ObservableObject {
     }
 
 
-struct PraticeOnList: View {
+struct ShoeListView: View {
     @StateObject var shoeViewModel = ShoeViewModel()
     @State private var selectedItem: [Products]?
     @State private var presentView = false
@@ -85,8 +85,8 @@ struct PraticeOnList: View {
         }
     }
 }
-struct PraticeOnList_Previews: PreviewProvider {
+struct ShoeListView_Previews: PreviewProvider {
     static var previews: some View {
-        PraticeOnList()
+        ShoeListView()
     }
 }

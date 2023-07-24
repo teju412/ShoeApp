@@ -11,7 +11,7 @@ import SwiftUI
 struct ShoeAppApp: App {
     var body: some Scene {
         WindowGroup {
-            PraticeOnList()
+            ShoeListView()
         }
     }
 }
