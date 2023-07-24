@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		54FB39E92A6E851A00BD5131 /* ShoeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB39E82A6E851A00BD5131 /* ShoeAppApp.swift */; };
-		54FB39EB2A6E851A00BD5131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB39EA2A6E851A00BD5131 /* ContentView.swift */; };
 		54FB39ED2A6E851D00BD5131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FB39EC2A6E851D00BD5131 /* Assets.xcassets */; };
 		54FB39F02A6E851D00BD5131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FB39EF2A6E851D00BD5131 /* Preview Assets.xcassets */; };
 		54FB39FA2A6E851D00BD5131 /* ShoeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB39F92A6E851D00BD5131 /* ShoeAppTests.swift */; };
@@ -16,6 +15,7 @@
 		54FB3A062A6E851D00BD5131 /* ShoeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A052A6E851D00BD5131 /* ShoeAppUITestsLaunchTests.swift */; };
 		54FB3A152A6E865300BD5131 /* EcommerceJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 54FB3A142A6E865300BD5131 /* EcommerceJson.json */; };
 		54FB3A172A6E865D00BD5131 /* PraticeOnList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A162A6E865D00BD5131 /* PraticeOnList.swift */; };
+		54FB3A192A6E875A00BD5131 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A182A6E875A00BD5131 /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		54FB39E52A6E851A00BD5131 /* ShoeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FB39E82A6E851A00BD5131 /* ShoeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeAppApp.swift; sourceTree = "<group>"; };
-		54FB39EA2A6E851A00BD5131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54FB39EC2A6E851D00BD5131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54FB39EF2A6E851D00BD5131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54FB39F52A6E851D00BD5131 /* ShoeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +47,7 @@
 		54FB3A052A6E851D00BD5131 /* ShoeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		54FB3A142A6E865300BD5131 /* EcommerceJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EcommerceJson.json; sourceTree = "<group>"; };
 		54FB3A162A6E865D00BD5131 /* PraticeOnList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PraticeOnList.swift; sourceTree = "<group>"; };
+		54FB3A182A6E875A00BD5131 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductModel.swift; path = ../../../all/Venkat/PraticeOnGettingTextfieldData/ObservableObjectExample/ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +98,9 @@
 		54FB39E72A6E851A00BD5131 /* ShoeApp */ = {
 			isa = PBXGroup;
 			children = (
+				54FB3A182A6E875A00BD5131 /* ProductModel.swift */,
 				54FB39E82A6E851A00BD5131 /* ShoeAppApp.swift */,
 				54FB3A142A6E865300BD5131 /* EcommerceJson.json */,
-				54FB39EA2A6E851A00BD5131 /* ContentView.swift */,
 				54FB3A162A6E865D00BD5131 /* PraticeOnList.swift */,
 				54FB39EC2A6E851D00BD5131 /* Assets.xcassets */,
 				54FB39EE2A6E851D00BD5131 /* Preview Content */,
@@ -264,8 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FB39EB2A6E851A00BD5131 /* ContentView.swift in Sources */,
 				54FB39E92A6E851A00BD5131 /* ShoeAppApp.swift in Sources */,
+				54FB3A192A6E875A00BD5131 /* ProductModel.swift in Sources */,
 				54FB3A172A6E865D00BD5131 /* PraticeOnList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
