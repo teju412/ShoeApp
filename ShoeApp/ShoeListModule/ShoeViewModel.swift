@@ -8,7 +8,6 @@
 import SwiftUI
 
 class ShoeViewModel: ObservableObject {
-    //@Published var usersProducts: Response?
     @Published var usersProducts = [Products]()
     
             

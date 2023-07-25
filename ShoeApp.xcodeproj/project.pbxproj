@@ -16,6 +16,8 @@
 		54FB3A152A6E865300BD5131 /* EcommerceJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 54FB3A142A6E865300BD5131 /* EcommerceJson.json */; };
 		54FB3A172A6E865D00BD5131 /* ShoeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A162A6E865D00BD5131 /* ShoeListView.swift */; };
 		54FB3A1B2A6E89F900BD5131 /* ShoeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A1A2A6E89F900BD5131 /* ShoeViewModel.swift */; };
+		54FB3A232A6F6A5A00BD5131 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A1D2A6E8A8C00BD5131 /* ProductModel.swift */; };
+		54FB3A252A6F6ABC00BD5131 /* ShoeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB3A242A6F6ABC00BD5131 /* ShoeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		54FB3A162A6E865D00BD5131 /* ShoeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeListView.swift; sourceTree = "<group>"; };
 		54FB3A1A2A6E89F900BD5131 /* ShoeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeViewModel.swift; sourceTree = "<group>"; };
 		54FB3A1D2A6E8A8C00BD5131 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		54FB3A242A6F6ABC00BD5131 /* ShoeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,7 @@
 			children = (
 				54FB3A1D2A6E8A8C00BD5131 /* ProductModel.swift */,
 				54FB3A162A6E865D00BD5131 /* ShoeListView.swift */,
+				54FB3A242A6F6ABC00BD5131 /* ShoeDetailView.swift */,
 				54FB3A1A2A6E89F900BD5131 /* ShoeViewModel.swift */,
 			);
 			path = ShoeListModule;
@@ -275,8 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FB39E92A6E851A00BD5131 /* ShoeAppApp.swift in Sources */,
+				54FB3A252A6F6ABC00BD5131 /* ShoeDetailView.swift in Sources */,
 				54FB3A1B2A6E89F900BD5131 /* ShoeViewModel.swift in Sources */,
 				54FB3A172A6E865D00BD5131 /* ShoeListView.swift in Sources */,
+				54FB3A232A6F6A5A00BD5131 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
