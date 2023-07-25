@@ -1,8 +1,8 @@
 //
-//  ProductsModel.swift
-//  EcommerceAppUI
+//  ProductModel.swift
+//  ShoeApp
 //
-//  Created by SHUBHAM AGARWAL on 06/02/21.
+//  Created by TejaDanasvi on 25/7/2023.
 //
 
 import Foundation
@@ -39,4 +39,5 @@ struct Products: Codable, Identifiable {
 
 
 }
+
 
